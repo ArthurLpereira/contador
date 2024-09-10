@@ -1,0 +1,102 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+}
+main{
+    height: 99%;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 60px;
+}
+h1{
+    font-size: 64px;
+    color: red;
+    margin: 0 auto;
+}
+div{
+    width: 81%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+}
+p.turma1{
+    position: absolute;
+    top: -34px;
+    background-color: rgb(1, 188, 1);
+    height: 20px;
+    padding-bottom: 10px;
+    width: 150px;
+    border: #000 2px solid;
+    text-align: center;
+}
+p.turma2{
+    position: absolute;
+    top: -34px;
+    background-color: orange;
+    height: 20px;
+    padding-bottom: 10px;
+    width: 150px;
+    border: #000 2px solid;
+    text-align: center;
+}
+p.turma3{
+    position: absolute;
+    top: -34px;
+    background-color: rgb(0, 157, 255);
+    height: 20px;
+    padding-bottom: 10px;
+    width: 150px;
+    border: #000 2px solid;
+    text-align: center;
+}
+p.turma4{
+    position: absolute;
+    top: -34px;
+    background-color: rgb(206, 0, 206); 
+    height: 20px;
+    padding-bottom: 10px;
+    width: 150px;
+    border: #000 2px solid;
+    text-align: center;
+}
+section {
+    position: relative;     
+    width: 190px; 
+    height: 60px; 
+    border: 3px solid #000; 
+    padding: 10px; 
+    background-color:red;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
+    font-size: 20px;
+    flex-direction: column;
+}
+section img {
+    position: absolute; 
+    left: -20px; 
+    border-radius: 4px;
+    border: #000 2px solid;
+    height: 77%;
+    width: auto;
+}
+p {
+    margin: 0; 
+    padding: 0; 
+}
+img.sesi{
+    height: auto;
+    width: 200px;
+}
